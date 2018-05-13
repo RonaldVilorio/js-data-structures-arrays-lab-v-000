@@ -22,3 +22,6 @@ function prependDriver(name){
   const new_drivers = ['Arnold', ...drivers]
   return new_drivers
 }
+function removeLastDriver(){
+  return drivers.pop()
+}
